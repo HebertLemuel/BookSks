@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* ======= Navbar ======= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: linear-gradient(to right, #e8f3ff, #dff5ff);
+}
+
+#booksys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar h2 {
+    color: #2a63c3;
+    font-weight: 600;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #4a70e0;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    color: #002aff;
+    border-bottom: 2px solid #4a70e0;
+}
+#ima_logo{
+    width: 75%;
+}
+
+/* ======= Main Content ======= */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 80vh;
+}
+
+/* Lado esquerdo */
+.logo-section {
+    text-align: center;
+}
+
+
+.logo-box h1 {
+    font-size: 90px;
+    color: white;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: -3px;
+}
+
+.logo-section h3 {
+    color: #4a70e0;
+    font-weight: 500;
+}
+
+.logo-section h2 {
+    color: #69d1ff;
+}
+
+/* Lado direito - login */
+.login-section {
+    background: linear-gradient(to top right, #6794ff, #a1e6ff);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    color: #2a63c3;
+}
+
+.login-section h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.login-section label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: #2a63c3;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+}
+
+.login-section .forgot {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    color: #7d9dff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.login-section button {
+    background-color: #4a70e0;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.login-section button:hover {
+    background-color: #345bd0;
+}

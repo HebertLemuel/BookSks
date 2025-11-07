@@ -45,8 +45,11 @@ header {
     text-align: center;
     margin-left: 5px;
 }
-
-
+h1.titulo{
+    background-image: linear-gradient(30deg, #001f65, #6895fd);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -56,23 +59,22 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #2349d1;
-    font-weight: 500;
     font-size: 17px;
-    transition: 0.3s;
 }
 
 nav a:hover{
     font-size: 19px;
     border-bottom: 2px solid #8fa8e8;
+    font-weight: 500;
 }
 .Home:active{
     transform: scale(1.0);
-    color: #8fa8e8;
-    
+    color: #8fa8e8;  
 }
 nav a.Home {
     border-bottom: 2px solid #2349d1;
-    padding-bottom: 3px;   
+    padding-bottom: 3px; 
+    font-weight: 500;
 }
 /* ======= CONTEÚDO PRINCIPAL ======= */
 main {
@@ -90,13 +92,14 @@ main {
 }
 
 .imagem img {
-    width: 600px;
+    width: ;
 }
 
 .texto {
     background-color: #eaf4ff;
     border-radius: 20px;
-    width: 575px;
+    width: 50vw;
+    height: 70vh;
     padding: 30px;
     box-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
@@ -158,19 +161,4 @@ main {
 
 .btn.claro:hover {
     background-color: #3ba7e5;
-}
-
-/* ======= RODAPÉ ======= */
-footer {
-    position: relative;
-    height: 100vh;
-}
-
-.onda {
-    width: 100%;
-
-    height: 100vh;
-    background: linear-gradient(to top, #cfe8ff 30%, #fdfdfd 100%);
-    border-top-left-radius: 60% 40%;
-    border-top-right-radius: 60% 40%;
 }
