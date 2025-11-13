@@ -18,9 +18,11 @@
             </div>
         </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#" class="active">Login</a>
-            <a href="#">Cadastro</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="Home">Login</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -41,9 +43,10 @@
                 <input type="text" placeholder="Insira o email ou Telefone">
                 
                 <label>Senha</label>
-                <input type="password" placeholder="Insira a senha de Usuário">
-
-                <a href="#" class="forgot">Esqueci a senha</a>
+                <input id="senha" type="password" placeholder="Insira a senha de Usuário">
+                <div id="esqueci">
+                    <a href="#" id="Esqueci">Esqueci a senha</a>
+                </div>
                 <button type="submit">Entrar</button>
             </form>
         </section>
