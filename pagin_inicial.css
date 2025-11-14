@@ -29,10 +29,60 @@ aside.hidden {
 }
 
 .logo {
-  text-align: center;
-  color: #1a73e8;
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  gap: 10px; 
 }
 
+
+.logo img {
+  width: 70px; 
+  height: 70px; 
+  object-fit: cover; 
+}
+
+
+#booksys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#booksys h1 {
+  font-size: 28px;  
+  background-image: linear-gradient(30deg, #001f65, #6895fd); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
+  font-family: 'The Seasons', sans-serif; 
+  margin: 0;  
+}
+
+#booksys h1:nth-child(2) {
+  font-size: 24px; 
+}
+
+@media (max-width: 600px) {
+  .logo {
+    flex-direction: column;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #booksys h1 {
+    font-size: 24px;  
+  }
+
+  #booksys h1:nth-child(2) {
+    font-size: 20px; 
+  }
+}
 nav ul {
   list-style: none;
 }

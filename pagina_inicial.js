@@ -23,7 +23,127 @@ const livros = [
     quantidade: 1,
     descricao:
       "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  }
+  },
+{
+    titulo: "Pense e enriqueça",
+    imagem: "https://m.media-amazon.com/images/I/71Vji8FDaPL._SL1500_.jpg",
+    categoria: "Autoajuda",
+    quantidade: 1,
+    descricao:
+      "Pense & enriqueça propõe um programa de 13 passos que mostra a importância do autoconhecimento, da imaginação e das associações de ideias para criar resultados satisfatórios. Neste clássico absoluto da autoajuda financeira, descubra a fórmula para acumular fortuna, provando que a receita do sucesso é atemporal.."
+  },
+  {
+    titulo: "Aprendendo a aprender",
+    imagem: "https://m.media-amazon.com/images/I/911tVSa4fJL._SY425_.jpg",
+    categoria: "Educação e Psicologia Cognitiva",
+    quantidade: 1,
+    descricao:
+      "Ensina técnicas baseadas na neurociência para otimizar o aprendizado, focando no uso de dois modos de pensamento: focado (lógico e direto) e difuso (criativo e geral). "
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
+  {
+    titulo: "Micro-Hábitos",
+    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
+    categoria: "Comportamento / Produtividade",
+    quantidade: 1,
+    descricao:
+      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  },
 ];
 
 // ELEMENTOS
