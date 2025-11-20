@@ -63,7 +63,7 @@ main {
 }
 
 .conteudo {
-    margin-left: 10px;
+    margin-left: 5px;
     display: flex;
     align-items: center;
     gap: 170px;
@@ -88,9 +88,9 @@ main {
     color: #333;
     display: flex;
     justify-content: center;
-    font-size: 28px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
 .texto h2 {
     display: flex;
@@ -99,7 +99,7 @@ main {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
