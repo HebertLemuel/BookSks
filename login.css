@@ -25,11 +25,17 @@ header {
     width: 120px;
     height: 70px;
 }
-.logo-section h1{
+#Bem ,#Book{
     font-size: 25px;
-    color: #2349d1;
     font-weight: 600;
 }
+#Bem{
+    color: #4e6bc2;
+}
+#Book{
+    color: #69d1ff;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -101,7 +107,8 @@ nav a.Home {
     background: linear-gradient(to top right, #6794ff, #a1e6ff);
     padding: 40px;
     border-radius: 20px;
-    width: 350px;
+    width: 25vw;
+    height: 45vh;
     text-align: center;
     color: #2a63c3;
 }
@@ -154,6 +161,9 @@ nav a.Home {
     cursor: pointer;
     margin-top: 10px;
     transition: 0.3s;
+}
+#entrar{
+    margin-top: 30px;
 }
 .login-section button:hover {
     background-color: #345bd0;
