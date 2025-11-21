@@ -2,7 +2,7 @@
 const livros = [
   {
     titulo: "Hábitos Atômicos",
-    imagem: "../Imagens/imagen_em_braco.jpg",
+    imagem: "https://m.media-amazon.com/images/I/71HMyqG6MRL.jpg",
     categoria: "Desenvolvimento Pessoal",
     quantidade: 3,
     descricao:

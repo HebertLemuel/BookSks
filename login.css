@@ -22,20 +22,28 @@ header {
     gap: 10px;
 }
 .logo img {
-    width: 120px;
+    width: 125px;
     height: 70px;
 }
-#Bem ,#Book{
-    font-size: 25px;
-    font-weight: 600;
+.logo h1 {
+    background-image: linear-gradient(30deg, #001f65, #6895fd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'The Seasons';
+    font-size: 20px;
 }
-#Bem{
-    color: #4e6bc2;
+#booksys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
 }
-#Book{
-    color: #69d1ff;
+h1.titulo{
+    background-image: linear-gradient(30deg, #001f65, #6895fd);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
-
 nav ul {
     list-style: none;
     display: flex;
@@ -107,8 +115,7 @@ nav a.Home {
     background: linear-gradient(to top right, #6794ff, #a1e6ff);
     padding: 40px;
     border-radius: 20px;
-    width: 25vw;
-    height: 45vh;
+    width: 350px;
     text-align: center;
     color: #2a63c3;
 }
@@ -161,9 +168,6 @@ nav a.Home {
     cursor: pointer;
     margin-top: 10px;
     transition: 0.3s;
-}
-#entrar{
-    margin-top: 30px;
 }
 .login-section button:hover {
     background-color: #345bd0;
