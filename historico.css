@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #66aefc, #9cd4ff);
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+
+#menu {
+  width: 250px;
+  background: #ffffff;
+  height: 100%;
+  padding: 20px;
+  border-right: 2px solid #d6e6ff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ima_logo {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 40px;
+}
+
+nav ul li {
+  margin: 18px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1a1a1a;
+  padding: 10px 5px;
+  display: block;
+  transition: 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #e8f2ff;
+  border-radius: 8px;
+}
+
+.user {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 18px;
+  color: #333;
+}
